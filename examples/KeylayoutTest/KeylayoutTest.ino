@@ -16,14 +16,14 @@
  * ImprovedKeylayouts.h in the library sources.
  */
 //#define HID_CUSTOM_LAYOUT
-//#define LAYOUT_ITALIAN
+//#define LAYOUT_GERMAN_MAC
 
 #include <HID-Project.h>
 
 /* Time to wait after each key press/release so that it gets picked up by the
  * host system [ms].
  */
-#define KEYDELAY 5
+#define KEYDELAY 10
 
 void setup() {
   Serial.begin(115200);
